@@ -6,7 +6,7 @@ class TogglApi:
 		# All Section urls comes here
 		self.headers = {'content-type': 'application/json'}
 		self.baseApiUrl = 'https://www.toggl.com/api/v8/'
-		self.token = '3fc7c48993fe7fdb7ecba75a9f1e3b5d'
+		self.token = token
 		self.workspace = workspace
 		
 	def __generateRequest(self, section='workspace', method='GET', params={}):
